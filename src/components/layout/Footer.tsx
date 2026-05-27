@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { Github, Linkedin, Twitter } from "lucide-react";
+import { Github, Linkedin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -11,7 +11,7 @@ const Footer = () => {
           {/* LEFT */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
             <Link href="#" className="font-display text-[20px] text-[var(--text-primary)]">
-              Your Name
+              Aditya Zarpure
             </Link>
             <div className="text-[12px] text-[var(--text-muted)] mt-[4px] font-body">
               Freelance Web Developer
@@ -36,14 +36,11 @@ const Footer = () => {
 
           {/* RIGHT */}
           <div className="flex items-center gap-[20px]">
-            <a href="#" target="_blank" rel="noreferrer" className="text-[var(--text-muted)] hover:text-[var(--accent)] transition-colors duration-300" aria-label="GitHub">
+            <a href="https://github.com/Aditya-Zarpure" target="_blank" rel="noreferrer" className="text-[var(--text-muted)] hover:text-[var(--accent)] transition-colors duration-300" aria-label="GitHub">
               <Github size={18} />
             </a>
-            <a href="#" target="_blank" rel="noreferrer" className="text-[var(--text-muted)] hover:text-[var(--accent)] transition-colors duration-300" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/aditya-zarpure/" target="_blank" rel="noreferrer" className="text-[var(--text-muted)] hover:text-[var(--accent)] transition-colors duration-300" aria-label="LinkedIn">
               <Linkedin size={18} />
-            </a>
-            <a href="#" target="_blank" rel="noreferrer" className="text-[var(--text-muted)] hover:text-[var(--accent)] transition-colors duration-300" aria-label="Twitter">
-              <Twitter size={18} />
             </a>
           </div>
 
@@ -51,7 +48,7 @@ const Footer = () => {
 
         {/* BOTTOM STRIP */}
         <div className="border-t border-[var(--border)] pt-[24px] mt-[32px] flex flex-col md:flex-row justify-between items-center gap-[16px] md:gap-0 text-[12px] text-[var(--text-muted)] font-body text-center md:text-left">
-          <p>&copy; 2025 Your Name. All rights reserved.</p>
+          <p>&copy; 2025 Aditya Zarpure. All rights reserved.</p>
           <p>Designed &amp; Built with precision.</p>
         </div>
       </div>

@@ -74,10 +74,10 @@ const Contact = () => {
           </p>
           <div className="mt-[32px]">
             <Link 
-              href="mailto:your@email.com" 
+              href="mailto:aditya.zarpure@gmail.com" 
               className="text-[14px] text-[var(--accent)] no-underline hover:underline font-body"
             >
-              your@email.com
+              aditya.zarpure@gmail.com
             </Link>
           </div>
         </div>

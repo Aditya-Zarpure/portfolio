@@ -47,7 +47,7 @@ const Navbar = () => {
       <div className="max-w-[1200px] mx-auto px-6 h-[72px] flex items-center justify-between">
         {/* Logo */}
         <Link href="#" className="font-display text-[20px] text-[var(--text-primary)] relative z-50">
-          Your Name
+          Aditya Zarpure
         </Link>
 
         {/* Desktop Nav */}

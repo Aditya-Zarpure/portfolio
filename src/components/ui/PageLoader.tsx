@@ -22,7 +22,7 @@ const PageLoader = () => {
           className="fixed inset-0 z-[10000] bg-[var(--bg)] flex flex-col items-center justify-center"
         >
           <div className="font-display text-[80px] text-[var(--accent)] font-light mb-8">
-            YN
+            AZ
           </div>
           <div className="w-[120px] h-[1px] bg-[var(--border)] relative overflow-hidden">
             <motion.div
