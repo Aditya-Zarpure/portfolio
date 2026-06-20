@@ -20,8 +20,8 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Aditya Zarpure \u2014 Freelance Web Developer",
-  description: "Full-stack web developer specialising in React, Next.js, and building premium digital experiences for ambitious brands.",
+  title: "Aditya Zarpure \u2014 Full-Stack Web Developer",
+  description: "Modern full-stack web developer building fast, secure, and privacy-focused web experiences.",
 };
 
 export const viewport = {

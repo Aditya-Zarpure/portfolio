@@ -8,24 +8,24 @@ import SectionLabel from '@/components/ui/SectionLabel';
 
 const services = [
   {
-    title: "Web Design",
-    icon: <Layers size={24} className="text-[var(--accent)] mb-[20px]" />,
-    description: "Pixel-perfect interfaces that balance beauty with usability. Every detail designed with intent."
-  },
-  {
     title: "Web Development",
     icon: <Code2 size={24} className="text-[var(--accent)] mb-[20px]" />,
-    description: "Clean, performant code using React and Next.js. Built to scale and easy to maintain."
+    description: "Building fast, scalable websites using modern frameworks like React and Next.js."
   },
   {
-    title: "Performance Optimization",
+    title: "Frontend Design",
+    icon: <Layers size={24} className="text-[var(--accent)] mb-[20px]" />,
+    description: "Designing clean, intuitive interfaces focused on usability and visual polish."
+  },
+  {
+    title: "Bug Fixes",
     icon: <Zap size={24} className="text-[var(--accent)] mb-[20px]" />,
-    description: "Lighthouse 95+ scores. Fast load times, optimized images, minimal bundles."
+    description: "Diagnosing and resolving issues quickly to keep your site running smoothly."
   },
   {
-    title: "Ongoing Support",
+    title: "Website Renovation",
     icon: <RefreshCw size={24} className="text-[var(--accent)] mb-[20px]" />,
-    description: "Post-launch maintenance, updates, and improvements as your business grows."
+    description: "Modernizing outdated websites with fresh design and improved performance."
   }
 ];
 

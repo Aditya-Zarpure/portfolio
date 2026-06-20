@@ -9,24 +9,11 @@ import Link from 'next/link';
 const projects = [
   {
     id: "01",
-    name: "Luxe Commerce",
-    description: "E-commerce platform for a premium fashion brand",
-    tags: ["Next.js", "Stripe", "Tailwind"],
-    bgClass: "bg-[#1a1a1a]"
-  },
-  {
-    id: "02",
-    name: "Pulse Dashboard",
-    description: "Real-time analytics dashboard",
-    tags: ["React", "Node.js", "PostgreSQL"],
-    bgClass: "bg-[var(--border)]"
-  },
-  {
-    id: "03",
-    name: "Folio Studio",
-    description: "Portfolio site for a photography studio",
-    tags: ["Next.js", "Framer Motion"],
-    bgClass: "bg-[var(--border)]"
+    name: "PDFShero",
+    description: "A privacy-first document conversion tool that converts files to PDF, Word, and other formats \u2014 entirely on the user's device. No data is ever uploaded or stored, making it one of the fastest document tools on the web.",
+    tags: ["Privacy-First", "Client-Side Processing", "Document Tools"],
+    bgClass: "bg-[#1a1a1a]",
+    url: "https://pdfshero.com/"
   }
 ];
 
@@ -65,9 +52,8 @@ const Portfolio = () => {
             className="font-display font-light text-[var(--text-primary)]"
             style={{ fontSize: 'clamp(36px, 5vw, 64px)' }}
           >
-            Featured Builds
+            Featured Work
           </h2>
-          <p className="text-[14px] text-[var(--text-muted)] mt-[8px]">Personal projects showcasing my skills and design approach</p>
         </div>
         <Link 
           href="#" 
@@ -120,10 +106,10 @@ const Portfolio = () => {
                 ))}
               </div>
 
-              <div className="inline-flex items-center text-[var(--accent)] text-[13px] font-body relative w-max mt-auto">
+              <a href={project.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-[var(--accent)] text-[13px] font-body relative w-max mt-auto">
                 View Project &rarr;
                 <span className="absolute left-0 bottom-[-4px] h-[1px] bg-[var(--accent)] w-0 group-hover:w-full transition-all duration-[400ms] ease-out" />
-              </div>
+              </a>
             </div>
           </motion.div>
         ))}

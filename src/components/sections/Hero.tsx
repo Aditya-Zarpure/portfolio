@@ -58,7 +58,7 @@ const Hero = () => {
           variants={itemVariants} 
           className="max-w-[480px] text-[16px] text-[var(--text-muted)] font-body leading-[1.7] mt-[24px]"
         >
-          Full-stack web developer building fast, beautiful, and purposeful products for ambitious brands.
+          I&apos;m a full-stack web developer building fast, clean, and privacy-first digital products.
         </motion.p>
 
         <motion.div variants={itemVariants} className="flex gap-[16px] mt-[40px]">
