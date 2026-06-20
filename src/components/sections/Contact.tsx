@@ -12,7 +12,6 @@ import Link from 'next/link';
 type FormInputs = {
   name: string;
   email: string;
-  budget: string;
   message: string;
 };
 
@@ -39,7 +38,6 @@ const Contact = () => {
         {
           from_name: data.name,
           reply_to: data.email,
-          budget: data.budget,
           message: data.message,
         },
         publicKey
@@ -117,22 +115,6 @@ const Contact = () => {
                   })}
                 />
                 {errors.email && <p className={errorStyles}>{errors.email.message}</p>}
-              </div>
-
-              <div>
-                <label className={labelStyles}>Budget</label>
-                <select 
-                  className={inputStyles}
-                  defaultValue=""
-                  {...register("budget", { required: "Please select a budget" })}
-                >
-                  <option value="" disabled hidden>Select budget...</option>
-                  <option value="Under $500">Under $500</option>
-                  <option value="$500–$1,500">$500–$1,500</option>
-                  <option value="$1,500–$5,000">$1,500–$5,000</option>
-                  <option value="$5,000+">$5,000+</option>
-                </select>
-                {errors.budget && <p className={errorStyles}>{errors.budget.message}</p>}
               </div>
 
               <div>

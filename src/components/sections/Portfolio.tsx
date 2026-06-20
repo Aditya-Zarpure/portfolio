@@ -65,8 +65,9 @@ const Portfolio = () => {
             className="font-display font-light text-[var(--text-primary)]"
             style={{ fontSize: 'clamp(36px, 5vw, 64px)' }}
           >
-            Recent Projects
+            Featured Builds
           </h2>
+          <p className="text-[14px] text-[var(--text-muted)] mt-[8px]">Personal projects showcasing my skills and design approach</p>
         </div>
         <Link 
           href="#" 

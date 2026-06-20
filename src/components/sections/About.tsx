@@ -58,24 +58,21 @@ const About = () => {
           className="flex flex-col"
         >
           <p className="text-[15px] text-[var(--text-muted)] leading-[1.8] font-body">
-            I&apos;m a full-stack web developer who believes that great software is as much about feel as it is about function. I specialise in building fast, accessible, and visually refined products.
-          </p>
-          <p className="text-[15px] text-[var(--text-muted)] leading-[1.8] font-body mt-[20px]">
-            From early-stage startups to growing businesses, I help clients establish a strong digital presence &mdash; turning ideas into experiences that convert and endure.
+            I&apos;m a web developer passionate about building fast, clean, and visually refined digital experiences. I&apos;m currently building my freelance practice, bringing fresh energy, the latest tech stack, and full dedication to every project I take on.
           </p>
 
           <div className="flex gap-[40px] mt-[40px]">
             <div>
-              <div className="font-display text-[42px] font-light text-[var(--accent)]">20+</div>
-              <div className="text-[12px] text-[var(--text-muted)] tracking-[0.1em] font-body mt-[4px]">Projects Delivered</div>
-            </div>
-            <div>
-              <div className="font-display text-[42px] font-light text-[var(--accent)]">3+</div>
-              <div className="text-[12px] text-[var(--text-muted)] tracking-[0.1em] font-body mt-[4px]">Years Building</div>
-            </div>
-            <div>
               <div className="font-display text-[42px] font-light text-[var(--accent)]">100%</div>
-              <div className="text-[12px] text-[var(--text-muted)] tracking-[0.1em] font-body mt-[4px]">Client Satisfaction</div>
+              <div className="text-[12px] text-[var(--text-muted)] tracking-[0.1em] font-body mt-[4px]">Commitment to Quality</div>
+            </div>
+            <div>
+              <div className="font-display text-[42px] font-light text-[var(--accent)]">24/7</div>
+              <div className="text-[12px] text-[var(--text-muted)] tracking-[0.1em] font-body mt-[4px]">Availability</div>
+            </div>
+            <div>
+              <div className="font-display text-[42px] font-light text-[var(--accent)]">Fresh</div>
+              <div className="text-[12px] text-[var(--text-muted)] tracking-[0.1em] font-body mt-[4px]">Modern Tech Stack</div>
             </div>
           </div>
 
