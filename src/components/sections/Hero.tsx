@@ -43,13 +43,7 @@ const Hero = () => {
         initial="hidden"
         animate="visible"
       >
-        <motion.div variants={itemVariants} className="flex items-center gap-3 mb-8">
-          <span className="relative flex h-2 w-2">
-            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#4ade80] opacity-75"></span>
-            <span className="relative inline-flex rounded-full h-2 w-2 bg-[#4ade80]"></span>
-          </span>
-          <span className="text-[13px] tracking-wide text-[var(--text-muted)] font-body">Available for freelance projects</span>
-        </motion.div>
+
 
         <motion.h1 
           variants={itemVariants} 

@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { Github, Linkedin } from "lucide-react";
+
 
 const Footer = () => {
   return (
@@ -34,15 +34,7 @@ const Footer = () => {
             </Link>
           </nav>
 
-          {/* RIGHT */}
-          <div className="flex items-center gap-[20px]">
-            <a href="https://github.com/Aditya-Zarpure" target="_blank" rel="noreferrer" className="text-[var(--text-muted)] hover:text-[var(--accent)] transition-colors duration-300" aria-label="GitHub">
-              <Github size={18} />
-            </a>
-            <a href="https://www.linkedin.com/in/aditya-zarpure/" target="_blank" rel="noreferrer" className="text-[var(--text-muted)] hover:text-[var(--accent)] transition-colors duration-300" aria-label="LinkedIn">
-              <Linkedin size={18} />
-            </a>
-          </div>
+
 
         </div>
 
