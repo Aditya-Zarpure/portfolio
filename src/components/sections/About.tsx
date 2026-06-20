@@ -4,8 +4,6 @@ import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import SectionWrapper from '@/components/ui/SectionWrapper';
 import SectionLabel from '@/components/ui/SectionLabel';
-import Button from '@/components/ui/Button';
-
 const About = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
@@ -76,9 +74,6 @@ const About = () => {
             </div>
           </div>
 
-          <div className="mt-[32px]">
-            <Button variant="ghost">Download CV</Button>
-          </div>
         </motion.div>
       </div>
     </SectionWrapper>
