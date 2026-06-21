@@ -1,0 +1,16 @@
+{
+  "name": "Studio Digital Portfolio Showcase",
+  "short_name": "Studio Digital",
+  "description": "Hardened Fullstack Software Engineering & Design Studio",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
