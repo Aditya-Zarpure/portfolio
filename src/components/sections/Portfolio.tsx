@@ -4,19 +4,18 @@ import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import SectionWrapper from '@/components/ui/SectionWrapper';
 import SectionLabel from '@/components/ui/SectionLabel';
-import { ShieldCheck, Zap, Bot, FileText, Lock, FileType } from 'lucide-react';
+import { ShieldCheck, Zap, FileText, Lock, FileType } from 'lucide-react';
 
 const projects = [
   {
     id: "01",
     name: "PDFsHero \u2014 Privacy-First Document Suite",
-    description: "A fully offline-first document toolkit that converts, merges, compresses, and edits PDFs entirely on the user's device. Powered by WebAssembly engines (QPDF, PDFium) and Mozilla's PDF.js for parsing \u2014 paired with Tesseract OCR and Gemini AI for document Q&A. No file ever touches a server.",
-    tags: ["Next.js 16", "React 19", "TypeScript", "pdf-lib", "Tesseract OCR", "Gemini AI", "+6 more"],
+    description: "A fully offline-first document toolkit that converts, merges, compresses, and edits PDFs entirely on the user's device. Powered by WebAssembly engines (QPDF, PDFium) and Mozilla's PDF.js for parsing. No file ever touches a server.",
+    tags: ["Next.js 16", "React 19", "TypeScript", "pdf-lib", "WebAssembly", "Tailwind CSS"],
     url: "https://pdfshero.com/",
     capabilities: [
       { icon: <ShieldCheck size={16} />, text: "100% Client-Side Processing" },
-      { icon: <Zap size={16} />, text: "WebAssembly Powered" },
-      { icon: <Bot size={16} />, text: "AI Document Q&A" }
+      { icon: <Zap size={16} />, text: "WebAssembly Powered" }
     ]
   }
 ];
