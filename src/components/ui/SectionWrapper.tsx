@@ -4,7 +4,7 @@ import { HTMLAttributes } from 'react';
 const SectionWrapper = ({ className = '', children, ...props }: HTMLAttributes<HTMLElement>) => {
   return (
     <section 
-      className={`py-[80px] md:py-[120px] w-full max-w-[1200px] mx-auto px-[24px] ${className}`}
+      className={`py-[80px] md:py-[120px] w-full max-w-[1200px] mx-auto px-[24px] scroll-mt-[72px] ${className}`}
       {...props}
     >
       {children}

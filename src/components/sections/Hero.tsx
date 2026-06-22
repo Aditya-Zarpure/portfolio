@@ -62,8 +62,8 @@ const Hero = () => {
         </motion.p>
 
         <motion.div variants={itemVariants} className="flex gap-[16px] mt-[40px]">
-          <Button variant="ghost">View My Work</Button>
-          <Button variant="primary">Let&apos;s Talk</Button>
+          <Button variant="ghost" onClick={() => document.getElementById("work")?.scrollIntoView({ behavior: "smooth" })}>View My Work</Button>
+          <Button variant="primary" onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}>Let&apos;s Talk</Button>
         </motion.div>
       </motion.div>
 
