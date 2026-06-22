@@ -4,7 +4,6 @@ import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import SectionWrapper from '@/components/ui/SectionWrapper';
 import SectionLabel from '@/components/ui/SectionLabel';
-import Link from 'next/link';
 import { ShieldCheck, Zap, Bot, FileText, Lock, FileType } from 'lucide-react';
 
 const projects = [
