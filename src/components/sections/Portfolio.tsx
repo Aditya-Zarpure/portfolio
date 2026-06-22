@@ -10,7 +10,7 @@ import { ShieldCheck, Zap, Bot, FileText, Lock, FileType } from 'lucide-react';
 const projects = [
   {
     id: "01",
-    name: "PDFShero \u2014 Privacy-First Document Suite",
+    name: "PDFsHero \u2014 Privacy-First Document Suite",
     description: "A fully offline-first document toolkit that converts, merges, compresses, and edits PDFs entirely on the user's device. Powered by WebAssembly engines (QPDF, PDFium) and Mozilla's PDF.js for parsing \u2014 paired with Tesseract OCR and Gemini AI for document Q&A. No file ever touches a server.",
     tags: ["Next.js 16", "React 19", "TypeScript", "pdf-lib", "Tesseract OCR", "Gemini AI", "+6 more"],
     url: "https://pdfshero.com/",
@@ -104,7 +104,7 @@ const Portfolio = () => {
                 <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
                   <FileText size={32} className="text-[var(--accent)] mb-[16px]" />
                   <h3 className="font-display italic text-[var(--text-primary)] leading-none m-0" style={{ fontSize: '56px' }}>
-                    PDFShero
+                    PDFsHero
                   </h3>
                   <div className="w-[60px] h-[1px] bg-[var(--accent)] my-[20px]" />
                   <div className="font-body text-[var(--text-muted)] uppercase tracking-[0.15em]" style={{ fontSize: '13px' }}>
